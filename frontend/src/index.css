@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.message-box::-webkit-scrollbar {
+  display: none;
+
+}
+
+.message-box {
+  scroll-behavior: smooth;
+}
+
+.m::-webkit-scrollbar {
+  display: none;
+}
+
+.bottom::-webkit-scrollbar {
+  display: none;
+}
+
+.code-editor-area::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.aboutImage{
+  background: url("img/abt-banner-img.png");
+}
+
+
+.real-time-chat {
+  background: url('img/real-time-chat.jpg');
+  height: 350px;
+  width: 450px;
+  object-fit: cover;
+
+}
+
+.project-discution {
+  background: url('img/premium_photo-1705267936187-aceda1a6c1a6.avif');
+  height: 350px;
+  width: 450px;
+  object-fit: cover;
+
+}
+
+.ai-assis {
+  background: url('img/ai-assistent.jpg');
+  height: 350px;
+  width: 450px;
+  object-fit: cover;
+
+}
+
+.project-creation {
+  background: url('img/project-creation.jpg');
+  height: 350px;
+  width: 450px;
+  object-fit: cover;
+
+}
+
+.colaborater-management {
+  background: url('img/colaboraters.jpg');
+  height: 350px;
+  width: 450px;
+  object-fit: cover;
+
+}
+
+.ai-code {
+  background: url('img/ai-code.jpg');
+  height: 350px;
+  width: 450px;
+  object-fit: cover;
+
+}
+
+
+.first-image {
+  background: url('img/aiHand.jpg');
+  object-fit: cover;
+  background-size: cover;
+
+  background-position: center;
+  background-attachment: fixed;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  image-rendering: high-quality;
+  filter: contrast(105%) brightness(105%);
+}
+
+
+.text-shadow{
+  /* text-shadow: 0 0 0.800em hsl(0, 0%, 0%), 0 0 0.45em currentColor; */
+  text-shadow: 0px 2px 9px rgba(0, 17, 255, 0.635);
+}
+
+
+.loginImage{
+  background: url('img/Login.png');
+  object-fit: cover;
+  background-size: cover;
+ 
+  filter: contrast(105%) brightness(105%);
+
+}
+
+.code{
+  background: url('img/back.png');
+  object-fit: cover;
+  background-size: cover;
+ 
+  filter: contrast(105%) brightness(105%);
+}
